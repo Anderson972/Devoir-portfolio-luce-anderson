@@ -6,6 +6,7 @@ import Services from './pages/service.jsx';
 import Portfolio from './pages/portfolio.jsx';
 import Contact from './pages/contact.jsx';
 import Mention from './pages/mention_legal.jsx';
+import Footer from "./footer.jsx";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/mention-legal" element={<Mention />} />
         </Routes>
+        <Footer />
     </div>
   );
 }
