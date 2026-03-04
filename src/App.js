@@ -8,12 +8,14 @@ import Contact from './pages/contact.jsx';
 import Mention from './pages/mention_legal.jsx';
 import Footer from "./footer.jsx";
 import ScrollToTop from './scrollToUp.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 
 function App() {
 
   
   return (
     <div className="App">
+      <HelmetProvider>
         <Navbar/>
         <ScrollToTop />
         <Routes>
@@ -24,6 +26,7 @@ function App() {
           <Route path="/mention-legal" element={<Mention />} />
         </Routes>
         <Footer />
+      </HelmetProvider>
     </div>
   );
 }

@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet-async";
 
 const Footer =() => {
     return(
         <div className="footer container-fluid bg-dark text-light p-5">
+            <Helmet>
+                <meta name="robots" content="nofollow"/>
+            </Helmet>
             <div className="contact container">
                 <h3>John doe</h3>
                 <address>
@@ -25,7 +28,7 @@ const Footer =() => {
                         <li className="nav-item"><Link className="link-light" to="/services">Services</Link></li>
                         <li className="nav-item"><Link className="link-light" to="/portfolio">Portfolio</Link></li>
                         <li className="nav-item"><Link className="link-light" to="/contact">Contact</Link></li>
-                        <li className="nav-item"><Link className="link-light" to="/mention-legale">Mention légale</Link></li>
+                        <li className="nav-item"><Link className="link-light" to="/mention-legal">Mention légale</Link></li>
                     </ul>
             </div>
             <div className="realisation container">

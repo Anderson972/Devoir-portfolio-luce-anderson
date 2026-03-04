@@ -10,23 +10,23 @@ const Contact = () => {
                         <h2>Formulaire de contact</h2>
                         <form>
                             <div className="form-floating mb-3">
-                                <input type="text" className="form-control" id="name" placeholder="Votre Nom"/>
+                                <input type="text" className="form-control" id="name" placeholder="Votre Nom" required/>
                                 <label htmlFor="name">Votre nom</label>
                             </div>
                             <div className="form-floating mb-3">
-                                <input type="email" className="form-control" id="mail" placeholder="votre@mail.com"/>
+                                <input type="email" className="form-control" id="mail" placeholder="votre@mail.com" required/>
                                 <label htmlFor="mail">Votre adresse mail</label>
                             </div>
                             <div className="form-floating mb-3">
-                                <input type="tel" className="form-control" id="telephone" placeholder="01 23 45 67 89"/>
+                                <input type="tel" className="form-control" id="telephone" placeholder="01 23 45 67 89" required/>
                                 <label htmlFor="telephone">Votre numéro de téléphone</label>
                             </div>
                             <div className="form-floating mb-3">
-                                <input type="text" className="form-control" id="subject" placeholder="Sujet"/>
+                                <input type="text" className="form-control" id="subject" placeholder="Sujet" required/>
                                 <label htmlFor="subject">Sujet</label>
                             </div>
                             <div className="form-floating">
-                                <textarea className="textarea form-control mb-3" placeholder="Votre message" id="message"></textarea>
+                                <textarea className="textarea form-control mb-3" placeholder="Votre message" id="message" required/>
                                 <label htmlFor="message">Votre message</label>
                             </div>
                             <button type="submit" className="btn btn-primary mx-auto">Envoyer</button>

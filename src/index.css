@@ -7,7 +7,7 @@
     padding: 0;
     font-family:"nunito sans";
 }
-h1, h2{
+h1, h2, h3{
     font-weight: 600; 
 }
 body a{
@@ -19,6 +19,9 @@ hr{
 .navlink {
     text-transform: uppercase;
     color: white;
+}
+.navlink:hover{
+    text-decoration: underline;
 }
 .active{
     font-weight: 600;
@@ -105,4 +108,10 @@ iframe{
 }
 #message{
     height: 400px;
+}
+.accordion{
+    text-align: initial;
+}
+.accordion a {
+    text-decoration: underline;
 }
