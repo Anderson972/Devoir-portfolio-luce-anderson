@@ -7,7 +7,7 @@ const Services = () => {
             <main>
                 <h1>Mon offre de services</h1>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
-                <hr className="border border-primary border-3 opacity-100" style={{width: 30 + '%'}} />
+                <hr className="border border-primary border-3 opacity-100 mb-5" style={{width: 30 + '%'}} />
                 <div className="cards">
                     <div className="card text-center mb-3">
                         <div className="card-body">

@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
             </header>
             <main>
-                <article className="skill">
+                <article className="main-article">
                     <section className="about">
                         <h2>A propos</h2>
                         <img alt="john doe" src='/img/john-doe-about.jpg'></img>
