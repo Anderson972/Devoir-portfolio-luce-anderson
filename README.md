@@ -30,7 +30,7 @@ Assure-toi d'avoir installé sur ta machine :
 
 1. **Clone le dépôt**
    ```bash
-   git clone https://github.com/Anderson972/Devoir-portfolio
+   git clone https://github.com/Anderson972/Devoir-portfolio-luce-anderson
    cd devoir-portfolio
    ```
 
