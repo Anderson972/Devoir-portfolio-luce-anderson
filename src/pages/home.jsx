@@ -1,4 +1,4 @@
-import Modale from '../modale.jsx';
+import Modale from '../component/modale.jsx';
 
 
 /* const progress = {

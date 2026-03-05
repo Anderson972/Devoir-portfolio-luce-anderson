@@ -1,14 +1,15 @@
-import {NavLink} from "react-router-dom";
+import {NavLink, Link} from "react-router-dom";
 
 const Navbar = ()=>{
     return(
         <div>
             <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/">JOHN DOE</a>
+                    <Link className="navbar-brand" to="/">JOHN DOE</Link>
                     <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
+                    
                     <div className="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent" data-bs-theme="dark">
                         <div className="bg-dark p-4 text-light">
                             <ul className="navbar-nav">

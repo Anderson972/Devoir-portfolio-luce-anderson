@@ -23,9 +23,11 @@ hr{
     text-transform: uppercase;
     color: white;
     margin: 0 15px;
+    text-decoration: underline transparent;
+    transition: text-decoration 300ms ease;
 }
 .navlink:hover{
-    text-decoration: underline;
+    text-decoration: underline white;
 }
 .active{
     font-weight: 600;
@@ -104,6 +106,11 @@ form{
 }
 .cards, .accordion{
     margin: 0 auto;
+}
+.card{
+    background-color: initial;
+    box-shadow: initial;
+    transition: background-color, box-shadow 300ms ease;
 }
 .card:hover{
     background-color: #efefef;

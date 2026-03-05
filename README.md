@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Devoir-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce site est un Portfolio développé avec React, conçu pour présenter mes compétences et mon parcours de façon claire.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+**Modules évalués** est une application web single-page (SPA) réalisée dans le cadre d'un devoir. Elle permet de mettre en avant :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Introduction à Javascript,
+- Document Object Model (DOM),
+- S'initier au Script Client avec Javascript,
+- Les règles ergonomiques,
+- Optimiser un site Web avec Bootstrap,
+- Coder Responsive Design avec React.js.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Installation & Lancement
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prérequis
 
-### `npm run build`
+Assure-toi d'avoir installé sur ta machine :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/) (version 16 ou supérieure)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Étapes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone le dépôt**
+   ```bash
+   git clone https://github.com/Anderson972/Devoir-portfolio
+   cd devoir-portfolio
+   ```
 
-### `npm run eject`
+2. **Installe les dépendances**
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Lance le serveur de développement**
+   ```bash
+   npm start
+   # ou
+   yarn start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Ouvre dans ton navigateur**
+   ```
+   http://localhost:3000
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Build de production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run build
+# ou
+yarn build
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##  Module utilisées
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Technologie | Version | Description |
+|---|---|---|
+| [React](https://react.dev/) | ^19.2.4 | Bibliothèque JavaScript pour l'interface utilisateur |
+| [React DOM](https://react.dev/) | ^19.2.4 | Rendu React dans le navigateur |
+| [React Router DOM](https://reactrouter.com/) | ^7.13.1 | Gestion de la navigation SPA |
+| [React Scripts](https://create-react-app.dev/) | 5.0.1 | Outils de build (Create React App) |
+| [React Helmet Async](https://github.com/staylor/react-helmet-async) | ^3.0.0 | Gestion dynamique des balises `<head>` (SEO) |
+| [Bootstrap](https://getbootstrap.com/) | ^5.3.8 | Framework CSS pour la mise en page et les composants UI |
+| [Bootstrap Icons](https://icons.getbootstrap.com/) | ^1.13.1 | Bibliothèque d'icônes Bootstrap |
+| [Sass](https://sass-lang.com/) | ^1.97.3 | Préprocesseur CSS pour des styles avancés |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##  Auteur
 
-### Analyzing the Bundle Size
+LUCE Anderson
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+##  Licence
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet est à usage éducatif uniquement.

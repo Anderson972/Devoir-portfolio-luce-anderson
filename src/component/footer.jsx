@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+
 
 const Footer =() => {
     return(
         <div className="footer container-fluid bg-dark text-light p-5">
-            <Helmet>
-                <meta name="robots" content="nofollow"/>
-            </Helmet>
             <div className="contact container">
                 <h3>John doe</h3>
                 <address>
@@ -17,9 +14,9 @@ const Footer =() => {
                     <a href="tel:1020304050" className="link-light">10 20 30 40 50</a><br />
                     <a href="mailto:john.doe@gmail.com" className="link-light">john.doe@gmail.com</a>
                 </address>
-                <a href="https://github.com/github-john-doe" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer"><i className="bi bi-github"></i></a>
-                <a href="https://x.com/" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer"><i className="bi bi-twitter"></i></a>
-                <a href="https://www.linkedin.com" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer"><i className="bi bi-linkedin"></i></a>
+                <a href="https://github.com/github-john-doe" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer nofollow"><i className="bi bi-github"></i></a>
+                <a href="https://x.com/" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer nofollow"><i className="bi bi-twitter"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"  className="icon-link link-light social" style={{fontSize: 2 + "rem"}} rel="noreferrer nofollow"><i className="bi bi-linkedin"></i></a>
             </div>
             <div className="useful-links container">
                 <h3>Liens utiles</h3>
