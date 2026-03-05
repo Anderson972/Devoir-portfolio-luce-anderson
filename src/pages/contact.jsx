@@ -5,8 +5,8 @@ const Contact = () => {
                 <h1>Contact</h1>
                 <p>Pour me contacter en vu d'un entretien ou d'une futur collaboration, merci de remplir le formulaire de contact.</p>
                 <hr className="border border-primary border-3 opacity-100 mb-5" style={{width: 30 + '%'}} />
-                <article className="main-article">
-                    <section className="formulaire">
+                <article className="main-article row">
+                    <section className="formulaire col-md-6">
                         <h2>Formulaire de contact</h2>
                         <form>
                             <div className="form-floating mb-3">
@@ -32,7 +32,7 @@ const Contact = () => {
                             <button type="submit" className="btn btn-primary mx-auto">Envoyer</button>
                         </form>
                     </section>
-                    <section className="competences">
+                    <section className="coordonées col-md-6">
                         <h2>Mes coordonnées</h2>
                         <h3>John Doe</h3>
                         <address>
